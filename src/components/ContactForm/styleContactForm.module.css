@@ -1,0 +1,52 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 300px;
+    margin-left: 30px;
+}
+
+.label {
+    margin-left: 20px;
+}
+
+.submit {
+    width: 228px;
+    margin-top: 12px;
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #3B3355;
+    color: #fff;
+    outline: none;
+    border-radius: 4px;
+}
+
+.inputName {
+    width: 220px;
+    height: 24px;
+}
+
+.inputName:focus {
+    border-color: #72DDF7;
+    outline: none;
+}
+
+.inputNumber {
+    width: 220px;
+    height: 24px;
+}
+
+.inputNumber:focus {
+    border-color: #72DDF7;
+    outline: none;
+}
+
+.appear {
+    opacity: 0;
+}
+
+.appearActive {
+    opacity: 1;
+    transition: opacity 700ms linear;
+}

@@ -1,0 +1,15 @@
+.title {
+    color: #A9CEF4;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.appear {
+    transform: translateX(-100%);
+}
+
+.appearActive {
+    transform: translateX(0);
+    transition: transform 700ms linear;
+}
+
